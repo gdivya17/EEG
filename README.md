@@ -2,7 +2,7 @@ CLASSIFICATION OF EMOTIONS BY ANALYZING EEG SIGNALS
 
 The project was carried out to perform analysis of EEG signals to classify the emotions of 32 subject using signal processing and machine learning techniques.
 
-Utilities [Util colab notebook](https://colab.research.google.com/drive/1-2NY0DhOIePT5tpD24GynwKgbaaUJZSH):
+Utilities [Util colab notebook](https://github.com/gdivya17/EEG/blob/master/Final_utils.ipynb):
 1) Decomposing of all 32 subject files [original dat files](https://drive.google.com/drive/folders/1zxLqJBKz8I5zs4M3uur-nQDckeTlPbi0) into 10 subbands using empirical wavelet transform [final_h5 files](https://drive.google.com/drive/folders/1Kk6_feIkc7HM2R_ydhMTLsnj_CuVHYrA).
 2) For feature extraction purposes we used a time series of resultant subbands that calculated 5 different entropies [subjectwise_entropies](https://drive.google.com/drive/folders/1xRzUcvtVvH7QgjG-zPB1kO7hcBOTs_1s).
 3) Then concatenated each entropy file and got a 2d matrix for better computation and for feasibility of analysis of dataset [entropies combined](https://drive.google.com/file/d/11AbX-et7py0eoG063OGB99vEDKQSpTAh/view).
