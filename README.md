@@ -9,7 +9,7 @@ Utilities [Util colab notebook](https://colab.research.google.com/drive/1-2NY0Dh
 4) Dividing combined entropy file into 10 files for each subband [bandwise entropies](https://drive.google.com/drive/folders/1U718poZGFw-GsVNmGGHE666GR6mRL6vb).
 5) Then for computation purposes we oversampled label class as final label [labels used](https://drive.google.com/drive/folders/1UAYtZZIU8qckBNGJYV4meNXVDXENz-A-).
 
-Final Classification (Classification colab notebook):
+Final Classification [Classification colab notebook]():
 1) To improve data integrity we performed oversampling in 0’s and 1’s as the output is bias
 toward 1’s we oversampled 0’s in the training dataset thus without the loss of information
 we get the model trained.
